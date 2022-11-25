@@ -29,3 +29,10 @@ nav{
     padding:0 30px;
     line-height:80px
 }
+#everytime{
+    width:70px; 
+    height:70px;
+    position: absolute;
+    top:5px;
+    left:50px;
+}
