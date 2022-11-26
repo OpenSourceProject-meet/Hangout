@@ -1,24 +1,25 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     padding:0;
     margin:0
 }
 body{
-    background-color:#1b2035;
-}
-a{
-    text-decoration:none;
-    color:#fff;
-    font-size:15px
+    background-color:#F5F5F5;
 }
 nav{
     width:100%;
     overflow:hidden;
     height:80px;
-    background-color:#1b2035;
-    margin:0px auto
+    background-color:white;
+    margin:0px auto;
+    position: fixed;
+    top: 0;
 }
 #nav1{
-    text-align:center
+    text-align:center;
+    border-bottom: 1px solid #D6D6D6;
 }
 #nav1>ul{
     display:inline-block;
@@ -28,4 +29,66 @@ nav{
     float:left;
     padding:0 30px;
     line-height:80px
+}
+a{
+    text-decoration:none;
+    color:#000000;
+    font-size:15px;
+}
+button{
+    border:0;
+    outline:0;
+    background-color: white;
+}
+#everytime-img{
+    width:70px; 
+    height:70px;
+    position: absolute;
+    top:5px;
+    left:50px;
+}
+.home-section{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.text{
+    padding-top: 80px;
+    text-align: center;
+    line-height: 300%;
+}
+.home-section.text h1{
+    font-size: 30px;
+}
+.scroll-down{
+    position: absolute;
+    bottom: 10px;
+}
+.home-section.scroll-down img{
+    width:10px;
+    height:10px;
+}
+.display{
+    padding-top: 80px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.timetable-example{
+    border: 1px solid black;
+    float:left;
+    width:300px;
+    height:700px;
+    text-align: center;
+    margin:30px;
+}
+.map-example{
+    border: 1px solid black;
+    display: inline-block;
+    width:300px;
+    height:700px;
+    text-align: center;
+    margin:30px;
 }
