@@ -35,6 +35,11 @@ a{
     color:#000000;
     font-size:15px;
 }
+button{
+    border:0;
+    outline:0;
+    background-color: white;
+}
 #everytime-img{
     width:70px; 
     height:70px;
@@ -56,6 +61,14 @@ a{
 }
 .home-section.text h1{
     font-size: 30px;
+}
+.scroll-down{
+    position: absolute;
+    bottom: 10px;
+}
+.home-section.scroll-down img{
+    width:10px;
+    height:10px;
 }
 .display{
     padding-top: 80px;
