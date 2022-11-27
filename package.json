@@ -1,0 +1,23 @@
+{
+  "name": "hangout",
+  "version": "1.0.0",
+  "description": "This is an Open Source Project that makes it convenient for friends to hang out with each other.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenSourceProject-meet/Hangout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenSourceProject-meet/Hangout/issues"
+  },
+  "homepage": "https://github.com/OpenSourceProject-meet/Hangout#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "selenium-webdriver": "^4.6.1"
+  }
+}
