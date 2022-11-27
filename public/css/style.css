@@ -48,7 +48,7 @@ button{
     left:50px;
 }
 .home-section{
-    background-image: url('img/skku2.png');
+    background-image: url('/img/skku2.png');
     background-size: cover;
     width:100vw;
     height: 100vh;
