@@ -3,9 +3,9 @@
 
 <head>
     <title>Page Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <style>
-        h1{
+        h1 {
             font-size: 30px;
             font-weight: 900;
             /*
@@ -21,7 +21,8 @@
             <ul>
                 <img src="img/everytime.png" id="everytime-img" alt="My Image">
                 <li><button id="home-button"><a href="#home">Home</a></button></li>
-                <li><button id="login-button" onclick="login()">Let's Meet</a></button></li>
+                <li><button id="login-button" onclick="login()">Let's
+                        Meet</button></li>
                 <li><button id="timetable-button"><a href="#timetable">Timetable</a></button></li>
             </ul>
         </nav>
@@ -34,10 +35,10 @@
             <h1><span style="color:#ce280f">Try us</span></h1>
         </div>
         <div class="arrow">
-            <a href="#timetable" class="scroll-down">        
+            <a href="#timetable" class="scroll-down">
                 <img src="img/arrow-down.png" id="arrow-down-img" alt="scroll Down">
             </a>
-        </div>        
+        </div>
     </section>
     <!-- Home Section End -->
 
@@ -55,8 +56,14 @@
     <!-- TimeTable Section End -->
 
     <script>
+        const { Builder, Capabilities, By, until } = require('selenium-webdriver');
+
+
         function login() {
-            fetch("/", { method: "GET" }).then((res) => res.text())
+            let w = window.open('https://everytime.kr/login', 'popUpWindow', 'height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
+            //checking login 
+            console.log(w.document);
+            // fetch("/", { method: "GET" }).then((res) => res.text())
         }
 
     </script>
