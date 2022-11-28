@@ -93,6 +93,7 @@ button{
     height:30px;
     margin-bottom: 5px;
     padding-left:10px;
+    align-items: center;
 }
 .list>ul li {
     background: white;
@@ -102,7 +103,7 @@ button{
     border: 1px solid #E3E3E3;
     font-size: 15px;
     margin-left:-30px;
-    align-items:stretch;
+    align-items:center;
     padding-left: 10px;
     padding-right:10px;
 }
