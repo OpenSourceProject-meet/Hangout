@@ -48,7 +48,7 @@ button{
     left:50px;
 }
 .home-section{
-    background-image: url('img/skku2.png');
+    background-image: url('/img/skku2.png');
     background-size: cover;
     width:100vw;
     height: 100vh;
@@ -60,9 +60,6 @@ button{
     padding-top: 80px;
     text-align: center;
     line-height: 300%;
-}
-.home-section.text h1{
-    font-size: 30px;
 }
 #arrow-down-img{
     width:30px;
@@ -85,11 +82,36 @@ button{
     text-align: center;
     margin:30px;
 }
-.map-example{
-    border: 1px solid black;
+.friendlist-example{
     display: inline-block;
     width:300px;
     height:700px;
     text-align: center;
     margin:30px;
+}
+.list-title{
+    height:30px;
+    margin-bottom: 5px;
+    padding-left:10px;
+    align-items: center;
+}
+.list>ul li {
+    background: white;
+    list-style: none;
+    height: 30px;
+    width: 300px;
+    border: 1px solid #E3E3E3;
+    font-size: 15px;
+    margin-left:-30px;
+    align-items:center;
+    padding-left: 10px;
+    padding-right:10px;
+}
+#confirm{
+    background-color: #AD3826;
+    padding: 5px;
+    color:white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
 }
