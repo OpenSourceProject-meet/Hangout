@@ -20,7 +20,7 @@ app.get('/', async (request, response) => {
 
 async function timetable() {
     let caps = new Capabilities();
-    caps.setPageLoadStrategy("eager"); //capabilities : for speed up
+    caps.setPageLoadStrategy("eager"); //cacsspabilities : for speed up
 
     driver = await new Builder().withCapabilities(caps).forBrowser('chrome').build();
     await driver.get('https://everytime.kr/login');
