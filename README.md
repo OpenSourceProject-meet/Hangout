@@ -49,6 +49,11 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 > 3.  Mangage Dependencies
 
 ## 6. [License]
+Licensed under MIT.
 
+## Code of Conduct
+As a contributor, you can help us keep our application open and inclusive.
+
+Please read and follow our Code of Conduct.
 
 ## 우수프로젝트 시상 프로그램에 지원합니다
