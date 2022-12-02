@@ -30,7 +30,14 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 * Our code use Selenium Web Driber, If you run the sever, install Selenium (Download the Selenium Driber `chromedriver_linux64(or window or Mac).zip` from [here](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/) and put it in 
 * Our program also uses the Naver Map API, so if you want to use it on local you must create a Naver Cloud Account and register your localhost url to the Naver Map API.
 ## Depenencies
-
+```javascripty
+expressjs / cors: "~> 2.8.5",
+mde / ejs: "~> 3.1.8",
+xpressjs / express: "~> 4.18.2",
+node: "~> 5.5.0", file: "package.json",
+tttro/node-html-parser: "~> 5.5.0", 
+SeleniumHQ/Selenium: "~> 4.6.1",
+```
 
 ## Example
 1. Main page  
