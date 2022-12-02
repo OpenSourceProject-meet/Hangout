@@ -35,10 +35,10 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 ## Example
 1. main page  
 ![image](public/img/main.png)
-Login to everytime by Let's Meet.
+Login to Everytime by Let's Meet.
 2. Time table 
 ![image](public/img/include_friends.png)
-After logged in, choose friend to overlap timetables.
+When logged in, choose friends to overlap timetables.
 3. Map
 ![image](public/img/map.png)
 Choose categories and select where to go.
