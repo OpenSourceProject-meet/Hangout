@@ -423,6 +423,23 @@
         }
         //console.log(subs);
 
+
+        ///////button confirm add event listener ////////
+        let button = document.querySelector("#confirm");
+        var array = []
+
+        button.addEventListener("click", () => {
+            var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
+
+            for (var i = 0; i < checkboxes.length; i++) {
+                array.push(checkboxes[i].value)
+            }
+
+            console.log("array: ", array);
+
+        })
+
+
     </script>
 </body>
 

@@ -32,7 +32,7 @@ router.post("/accept", async (req, res) => {
 
 async function timetable() {
     let caps = new Capabilities();
-    caps.setPageLoadStrategy("eager"); //capabilities : for speed up
+    caps.setPageLoadStrategy("normal"); //capabilities : for speed up
 
     driver = await new Builder().withCapabilities(caps).forBrowser('chrome').build();
     await driver.get('https://everytime.kr/login');
@@ -89,6 +89,7 @@ async function timetable() {
     await driver.get('https://everytime.kr/friend');
     //check if friend table is fully loaded.
     let ele = await driver.wait(until.elementLocated(By.css('.friend')), 10000);
+    console.log(ele);
     await driver.wait(until.elementLocated(By.xpath('//*[@id="container"]/div[2]')), 30000, 'Timed out after 30 seconds', 5000);
     // Get element with tag name 'table'
     let element2 = await driver.findElement(By.xpath('//*[@id="container"]/div[2]'));
