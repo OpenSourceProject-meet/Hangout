@@ -100,12 +100,14 @@ button {
 }
 
 .timetable-example {
-    border: 1px solid black;
+
     float: left;
-    width: 300px;
-    height: 700px;
+    width: 500px;
+    height: 720px;
     text-align: center;
     margin: 30px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .friendlist-example {

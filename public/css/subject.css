@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* div.subject {
+    position: absolute;
+    width: 100%;
+    top: 200%;
+    height: 120px;
+    background-color: aqua;
+} */
+
+
+tbody tr td {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    position: relative;
+
+}
