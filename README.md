@@ -5,4 +5,30 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 
 
 
-우수프로젝트 시상 프로그램에 지원합니다
+
+
+
+## 5. Works
+
+- Kim Dong Hyun: Frontend developer / Web designer
+
+> 1. Construct out design of Web pages
+> 2. Collect Naver map api data
+> 3. Design the thumbnail
+
+- Park Jin suk: Product manager
+
+> 1. Plan web service
+> 2. Apply Naver map api
+> 3. Manage/Control Git repository
+
+-Park Jongeun: Back-End
+
+> 1.  Construct timetable and do Crawling
+> 2.  Maintain sever
+> 3.  Mangage Dependencies
+
+## 6. [License]
+
+
+## 우수프로젝트 시상 프로그램에 지원합니다
