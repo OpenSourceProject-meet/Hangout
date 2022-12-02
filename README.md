@@ -4,8 +4,15 @@ This is an Open Source Project that aims at making it convenient for friends to 
 We noticed that it was visually difficult for a bunch of friends to conveniently compare their schedules and meet at a specific time and location. Moreover, friends tend to go to the same places and have trouble in discovering new places to hang out. Our web page solves both of these issues as we use the timetable function of Everytime, wide-used college mobile, to display and compare the time available with the friend you want and we use the Naver Map API to help you discover new places around SKKU.
 
 
+## Example
+1. main 화면  
+![image](https://user-images.githubusercontent.com/50107564/143673854-a6acac04-841e-4d2f-976d-6d71f0b243ed.png)
+2. 설명  
+![image](https://user-images.githubusercontent.com/50107564/143673927-b87c9827-a228-43d4-b375-bfa38fb7a18f.png)
+3. 결과 페이지  
+4. demo  
+[youtube]([https://youtu.be/M84WRA6555E](https://youtu.be/IFPoISu1zbA))  
 
-https://youtu.be/IFPoISu1zbA
 
 
 ## 5. Works
