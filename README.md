@@ -12,7 +12,7 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 3. Map
 ![image](public/img/map.png)
 4. Demo video  
-[youtube]([https://youtu.be/IFPoISu1zbA](https://youtu.be/IFPoISu1zbA))  
+[youtube](https://www.youtube.com/watch?v=IFPoISu1zbA)  
 
 
 
