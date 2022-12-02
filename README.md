@@ -40,7 +40,7 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 Licensed under MIT.
 
 
-Code of Conduct
+## Code of Conduct
 As a contributor, you can help us keep our application open and inclusive.
 
 Please read and follow our Code of Conduct.
