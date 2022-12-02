@@ -1,10 +1,10 @@
 # Hangout :shipit:    
+
+<img src="thumbnail.png" alt="Hang Out!" height="256px" align="left">
+
 <a href="https://opensource.facebook.com/support-ukraine">
   <img src="https://img.shields.io/badge/Support-Ukraine-FFD500?style=flat&labelColor=005BBB" alt="Support Ukraine - Help Provide Humanitarian Aid to Ukraine." />
 </a>
-<img src="thumbnail.png" alt="Hang Out!" height="256px" align="left">
-
-
 This is an Open Source Project that aims at making it convenient for friends to match their schedule and discover new places to hang out near SKKU.
 
 
