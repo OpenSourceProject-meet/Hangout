@@ -1,4 +1,4 @@
-# Hangout :shipit:    <img src="thumbnail.png" alt="Hang Out!" height="256px" align="right">
+# Hangout :shipit:    <img src="thumbnail.png" alt="Hang Out!" height="256px" align="left">
 
 
 
