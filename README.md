@@ -16,6 +16,14 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 <br>
 <br>
 
+## Table of Contents
+* Instructions and Navigation
+* Dependencies
+* Example
+* Release
+* Works
+* License
+
 ## Instructions and Navigations
 
 * Our code is written in Javascript, and developed in Node.js environment.
@@ -27,10 +35,13 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 ## Example
 1. main page  
 ![image](public/img/main.png)
+Login to everytime by Let's Meet.
 2. Time table 
 ![image](public/img/include_friends.png)
+After logged in, choose friend to overlap timetables.
 3. Map
 ![image](public/img/map.png)
+Choose categories and select where to go.
 4. Demo video  
 [youtube](https://www.youtube.com/watch?v=IFPoISu1zbA)  
 
