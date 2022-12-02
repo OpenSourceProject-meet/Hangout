@@ -33,7 +33,7 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 
 
 ## Example
-1. main page  
+1. Main page  
 ![image](public/img/main.png)
 Login to Everytime by Let's Meet.
 2. Time table 
