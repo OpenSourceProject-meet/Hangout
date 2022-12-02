@@ -1,6 +1,5 @@
-# Hangout :shipit:
+# Hangout :shipit:    <img src="thumbnail.png" alt="Hang Out!" height="256px" align="right">
 
-<img src="thumbnail.png" alt="Hang Out!" height="256px" align="right">
 
 
 This is an Open Source Project that aims at making it convenient for friends to match their schedule and discover new places to hang out near SKKU.
