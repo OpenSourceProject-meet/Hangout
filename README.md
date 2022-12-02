@@ -20,7 +20,7 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 
 * Our code is written in Javascript, and developed in Node.js environment.
 * Our code use Selenium Web Driber, If you run the sever, install Selenium (Download the Selenium Driber `chromedriver_linux64(or window or Mac).zip` from [here](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/) and put it in 
-
+* Our program also uses the Naver Map API, so if you want to use it on local you must create a Naver Cloud Account and register your localhost url to the Naver Map API.
 ## Depenencies
 
 
