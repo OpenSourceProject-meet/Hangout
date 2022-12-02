@@ -414,7 +414,7 @@
                 let topPercent = (a[j].top - 450) / 50 * 100;
 
                 let newDiv = document.createElement("div");
-                newDiv.style.cssText = 'position:absolute;background-color:aqua;width:100%;top:' + topPercent + '%;height:' + heightPercent + '%';
+                newDiv.style.cssText = 'position:absolute;background-color:#AD3826;width:100%;top:' + topPercent + '%;height:' + heightPercent + '%';
 
 
                 div[i + 1].appendChild(newDiv);
@@ -429,13 +429,70 @@
         var array = []
 
         button.addEventListener("click", () => {
-            var checkboxes = document.querySelectorAll('input[type=checkbox]:checked')
+
+            array = []
+
+            var checkboxes = document.querySelectorAll('input[type=checkbox]')
+            console.log('checkbox length', checkboxes.length);
 
             for (var i = 0; i < checkboxes.length; i++) {
-                array.push(checkboxes[i].value)
+                if (checkboxes[i].checked === true) {
+                    array.push(1)
+                }
+                else {
+                    array.push(0)
+                }
+
             }
 
             console.log("array: ", array);
+            let friendTime;
+
+            fetch("/users/timetable", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    array
+                }),
+            }).then((response) => response.json())
+                .then((data) => {
+                    console.log("data: ", data)
+                    friendTime = data;
+                    console.log('friendTime[0]:', friendTime[0]);
+                    console.log('friendTime length:', friendTime.length);
+
+                    //시간표 그리기 시작 
+                    for (let k = 0; k < friendTime.length; k++) {
+                        let div = document.querySelectorAll(".subject > td");  //get second tr
+                        subs = friendTime[k]
+                        for (let i = 0; i < 5; i++) { //월,화,수,목,금
+                            let a = subs[i]
+                            console.log('subs[i]:', a);
+                            for (let j = 0; j < subs[i].length; j++) {
+                                console.log("length: ", subs[i].length);
+                                console.log('a[j]: ', a[j]);
+                                let heightPercent = a[j].height / 50 * 100;
+                                let topPercent = (a[j].top - 450) / 50 * 100;
+
+                                let newDiv = document.createElement("div");
+                                newDiv.style.cssText = 'position:absolute;background-color:#1c2841;width:100%;top:' + topPercent + '%;height:' + heightPercent + '%';
+
+
+                                div[i + 1].appendChild(newDiv);
+
+                            }
+                        }
+                    }
+
+
+
+
+                });
+
+
+
 
         })
 
