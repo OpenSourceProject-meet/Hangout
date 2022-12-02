@@ -3,152 +3,160 @@
 
 
 #meetTitle {
-    color:#575859;
+    color: #575859;
     text-align: center;
     font-size: 24pt;
-    font-weight:300;
-    font-family: "Noto Sans","Noto Sans KR",sans-serif;
-    margin-bottom:20px;
+    font-weight: 300;
+    font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+    margin-bottom: 20px;
     margin-top: 20px;
 }
 
 #mapSection {
-        width: 100%;
-        height: 100vh;
+    width: 100%;
+    height: 100vh;
 }
+
 #mapWrapper {
-    width:80%;
+    width: 80%;
     margin: auto;
 }
 
 #currentList {
-        width: 100%;
-        font-family: "Noto Sans","Noto Sans KR",sans-serif;
-        font-size: 1.25rem;
-        font-weight: 300;
-        font-style: normal;
-        letter-spacing: -.4px;
-        line-height: 1.5rem;
-        text-align: center;
-        color: #575859;
-        margin-bottom:30px;
+    width: 100%;
+    font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: -.4px;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #575859;
+    margin-bottom: 30px;
 }
 
 .infoTab {
-    width:200px;
+    width: 200px;
     text-align: center;
-    padding:10px;
+    padding: 10px;
     min-height: auto;
 
 }
 
 .imageplace {
-    height:100px;
+    height: 100px;
     background-size: contain;
-    width:100%;
+    width: 100%;
 
 }
 
 .submit {
-    width:50px;
-    height:30px;
-    color:black;
+    width: 50px;
+    height: 30px;
+    color: black;
     font-weight: bolder;
-    margin-top:15px;
-    border-radius:15px;
+    margin-top: 15px;
+    border-radius: 15px;
 
 }
 
 p {
     font-size: 20pt;
-    font-weight:bolder;
+    font-weight: bolder;
     margin-top: 15px;
 
 }
 
 .mapList {
-    font-size:14pt;
-    font-weight:bolder;
+    font-size: 14pt;
+    font-weight: bolder;
     font-family: 'Montserrat Alternates', sans-serif;
-    margin-top:10px;
-    margin-bottom:10px;
-    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
 }
 
 #filter {
-    display:flex;
+    display: flex;
     column-gap: 15px;
     font-size: 14pt;
-    font-weight:bolder;
+    font-weight: bolder;
     margin-bottom: 20px;
 
 }
+
 #box0 {
-    flex:2;
-    border-radius:16px;
+    flex: 2;
+    border-radius: 16px;
     border: 0px;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
 #box1 {
-    flex:2;
-    border-radius:16px;
+    flex: 2;
+    border-radius: 16px;
     border: 0px;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-weight:300;
+    font-weight: 300;
 
 }
+
 #box2 {
-    flex:2;
-    border-radius:16px;
+    flex: 2;
+    border-radius: 16px;
     border: 0px;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-weight:300;
+    font-weight: 300;
 }
+
 #box3 {
-    flex:2;
-    border-radius:16px;
+    flex: 2;
+    border-radius: 16px;
     border: 0px;
-    font-weight:300;
+    font-weight: 300;
 }
+
 #box4 {
-    flex:2;
-    border-radius:16px;
+    flex: 2;
+    border-radius: 16px;
     border: 0px;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-weight:300;
+    font-weight: 300;
 }
+
 #box5 {
-    flex:2;
-    border-radius:16px;
+    flex: 2;
+    border-radius: 16px;
     border: 0px;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-weight:300;
+    font-weight: 300;
 }
+
 #edit {
-    width:100%;
-    display:flex;
+    width: 100%;
+    display: flex;
     column-gap: 15px;
     font-family: 'Montserrat Alternates', sans-serif;
     justify-content: space-between;
 
 
 }
+
 #remove {
-    margin-top:10px;
-    border-radius:16px;
-    color:black;
-    flex:2;
+    margin-top: 10px;
+    border-radius: 16px;
+    color: black;
+    flex: 2;
     font-family: 'Montserrat Alternates', sans-serif;
-    border:0;
+    border: 0;
 
 }
 
-#confirm {
-    margin-top:10px;
-    border-radius:16px;
-    color:black;
-    flex:2;
+#map-confirm {
+    margin-top: 10px;
+    border-radius: 16px;
+    color: black;
+    flex: 2;
     font-family: 'Montserrat Alternates', sans-serif;
     border: 0;
 }
@@ -156,7 +164,7 @@ p {
 
 h3 {
     font-size: 15pt;
-    font-weight:bolder;
+    font-weight: bolder;
     margin-top: 15px;
     font-family: 'Montserrat Alternates', sans-serif;
 
