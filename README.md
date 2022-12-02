@@ -9,6 +9,7 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 
 
 <br>
+<br>
 
 ## Instructions and Navigations
 
