@@ -5,12 +5,13 @@ We noticed that it was visually difficult for a bunch of friends to conveniently
 
 
 ## Example
-1. main 화면  
-![image](https://user-images.githubusercontent.com/50107564/143673854-a6acac04-841e-4d2f-976d-6d71f0b243ed.png)
-2. 설명  
-![image](https://user-images.githubusercontent.com/50107564/143673927-b87c9827-a228-43d4-b375-bfa38fb7a18f.png)
-3. 결과 페이지  
-4. demo  
+1. main page  
+![image](public/img/main.png)
+2. Time table 
+![image](public/img/include_friends.png)
+3. Map
+![image](public/img/map.png)
+4. Demo video  
 [youtube]([https://youtu.be/M84WRA6555E](https://youtu.be/IFPoISu1zbA))  
 
 
