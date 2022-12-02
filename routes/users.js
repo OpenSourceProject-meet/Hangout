@@ -171,6 +171,7 @@ async function timetable() {
     await driver.get('https://everytime.kr/friend');
     //check if friend table is fully loaded.
     let ele = await driver.wait(until.elementLocated(By.css('.friend')), 10000);
+    setTimeout(() => console.log("after"), 60);
     console.log(ele);
     await driver.wait(until.elementLocated(By.xpath('//*[@id="container"]/div[2]')), 30000, 'Timed out after 30 seconds', 5000);
     // Get element with tag name 'table'

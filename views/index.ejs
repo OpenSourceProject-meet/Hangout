@@ -402,46 +402,41 @@
     <!-- TimeTable Section End -->
 
     <!-- Map Section Start -->
-    <section class="map-section" id="map">
-        <div class="display">
 
-            <!-- 네이버 지도가 뿌려질 곳 !  -->
-            <section id="mapSection">
-                <div id="mapWrapper">
-                    <div id="meetTitle">
-                        Where do you want to hang out?
-                    </div>
-                    <div id="filter">
-                        <button id="box0" value="All" onclick="markerDisplay('All')">All</button>
-                        <button id="box1" value="Food" onclick="markerDisplay('Food')">Food</button>
-                        <button id="box2" value="Cafe" onclick="markerDisplay('Cafe')">Cafe</button>
-                        <button id="box3" value="Activities" onclick="markerDisplay('Activities')">Activities</button>
-                        <button id="box4" value="Alcohol" onclick="markerDisplay('Beverages')">Beverages</button>
+    <!-- 네이버 지도가 뿌려질 곳 !  -->
+    <section id="mapSection">
+        <div id="mapWrapper">
+            <div id="meetTitle">
+                Where do you want to hang out?
+            </div>
+            <div id="filter">
+                <button id="box0" value="All" onclick="markerDisplay('All')">All</button>
+                <button id="box1" value="Food" onclick="markerDisplay('Food')">Food</button>
+                <button id="box2" value="Cafe" onclick="markerDisplay('Cafe')">Cafe</button>
+                <button id="box3" value="Activities" onclick="markerDisplay('Activities')">Activities</button>
+                <button id="box4" value="Alcohol" onclick="markerDisplay('Beverages')">Beverages</button>
 
-                    </div>
+            </div>
 
-                    <div id="map" style="width:100%;height:75vh; margin: 0 auto;"></div>
+            <div id="map" style="width:100%;height:75vh; margin: 0 auto;"></div>
 
-                    <div id="currentList">
-                        <p>Hang out Course</p>
+            <div id="currentList">
+                <p>Hang out Course</p>
 
-                        <div id="stage">
-                        </div>
-                        <div id="edit">
-                            <button id="remove" onclick="Remove()">Remove</button>
-                            <button id="map-confirm" onclick="Confirm()">Confirm</button>
-                        </div>
-
-
-                        <section id="schedule">
-
-                        </section>
-
-                    </div>
-
-
+                <div id="stage">
                 </div>
-            </section>
+                <div id="edit">
+                    <button id="remove" onclick="Remove()">Remove</button>
+                    <button id="map-confirm" onclick="Confirm()">Confirm</button>
+                </div>
+
+
+                <section id="schedule">
+
+                </section>
+
+            </div>
+
 
 
         </div>
@@ -889,14 +884,16 @@
         function Confirm() {
             let schedule = document.getElementById('schedule')
 
+            $('#schedule').empty()
+
             let final = document.createElement("h3")
             final.innerHTML = hangoutList
 
             schedule.appendChild(final)
 
 
-        }
 
+        }
         function markerDisplay(define) {
 
             console.log("we put map as global")
