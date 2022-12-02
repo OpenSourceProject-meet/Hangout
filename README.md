@@ -1,4 +1,7 @@
 # Hangout :shipit:    
+<a href="https://opensource.facebook.com/support-ukraine">
+  <img src="https://img.shields.io/badge/Support-Ukraine-FFD500?style=flat&labelColor=005BBB" alt="Support Ukraine - Help Provide Humanitarian Aid to Ukraine." />
+</a>
 <img src="thumbnail.png" alt="Hang Out!" height="256px" align="left">
 
 
@@ -6,6 +9,7 @@ This is an Open Source Project that aims at making it convenient for friends to 
 
 
 We noticed that it was visually difficult for a bunch of friends to conveniently compare their schedules and meet at a specific time and location. Moreover, friends tend to go to the same places and have trouble in discovering new places to hang out. Our web page solves both of these issues as we use the timetable function of Everytime, wide-used college mobile, to display and compare the time available with the friend you want and we use the Naver Map API to help you discover new places around SKKU.
+
 
 
 <br>
